@@ -1,0 +1,4 @@
+type sysfs_msm_subsys, sysfs_type, fs_type;
+type sysfs_msm_boot, sysfs_type, fs_type;
+type proc_last_kmsg, fs_type, proc_type;
+type sysfs_touchpanel, fs_type, sysfs_type;
