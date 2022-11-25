@@ -1,4 +1,4 @@
-#
+ #
 # Copyright (C) 2022 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
@@ -84,13 +84,7 @@ PRODUCT_PACKAGES += \
     libstdc++.vendor \
     libgui_vendor
 
-PRODUCT_PACKAGES += \
-    android.hardware.audio.service_64 \
-    libFaceDetectCA \
-    libMegviiUnlock \
-    libMegviiUnlock-jni-1.2 \
-    libmegface 
-# Component overrides
+ # Component overrides
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/component-overrides.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/component-overrides.xml
 
@@ -448,6 +442,3 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini \
     $(LOCAL_PATH)/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf
 
-PRODUCT_PACKAGES += \
-       libmegface \
-    name: "vendor.aospa.biometrics.face.required \
